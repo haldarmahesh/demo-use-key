@@ -7,7 +7,7 @@
     "react-dom": "^16.7.0-alpha.0",
     "react-embed-gist": "^1.0.7",
     "react-scripts": "2.1.0",
-    "use-key-hook": "^1.0.3"
+    "use-key-hook": "^1.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,7 +15,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "./node_modules/eslint/bin/eslint.js --ext js,jsx src",
+    "lint-fix": "./node_modules/eslint/bin/eslint.js --ext js,jsx src --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,6 +30,16 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-compat": "^2.6.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "gh-pages": "^2.0.1"
-  }
+  },
+  "eslintIgnore": [
+    "serviceWorker.js"
+  ]
 }

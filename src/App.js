@@ -3,7 +3,6 @@ import './App.css';
 import UseKeyComponent from './use-key/index';
 
 class App extends Component {
-
   render() {
     return (
       <>
@@ -16,8 +15,8 @@ class App extends Component {
           <UseKeyComponent />
         </main>
         <footer className="mastfoot mt-auto">
-          Github
-          </footer>
+          <a href="https://github.com/haldarmahesh/use-key-hook" target="_blank" rel="noopener noreferrer">Github</a>
+        </footer>
       </>
     );
   }
