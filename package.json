@@ -19,9 +19,6 @@
     "lint": "./node_modules/eslint/bin/eslint.js --ext js,jsx src",
     "lint-fix": "./node_modules/eslint/bin/eslint.js --ext js,jsx src --fix"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "homepage": "http://haldarmahesh.github.io/demo-use-key",
   "browserslist": [
     ">0.2%",
@@ -30,16 +27,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^5.8.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-compat": "^2.6.2",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.11.1",
     "gh-pages": "^2.0.1"
-  },
-  "eslintIgnore": [
-    "serviceWorker.js"
-  ]
+  }
 }

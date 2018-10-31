@@ -26,13 +26,14 @@ const component = () => {
         <>
           <h1>
             {' '}
-                Press
-            <kbd> g </kbd>
-                ,
-            <kbd> Esc</kbd>
-            {' '}
+                Press &nbsp;
+            <kbd>g</kbd>
+            &nbsp;,&nbsp;
+            <kbd>Esc</kbd>
+            &nbsp;
                 or
-            <kbd> 5</kbd>
+                &nbsp;
+            <kbd>5</kbd>
           </h1>
 
           {/* <h2 className="cover-heading">to trigger the Hook.</h2> */}
@@ -46,7 +47,7 @@ const component = () => {
           <h3>
                 Esc -&gt;
             {' '}
-            {key2}
+            {key2}&nbsp;
                 times
           </h3>
           <h3 className=" ">
